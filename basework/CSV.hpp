@@ -9,6 +9,19 @@ namespace CSV
 {
     template <typename T>
     void write(
+        const std::vector<std::pair<T,T>> &t_vector_vector,
+        std::ostream& t_file = std::cout,
+        std::string t_delimeter = " ")
+    {
+        for (std::pair<T,T> temp : t_vector_vector)
+        {
+            t_file << temp.first << t_delimeter << temp.second << '\n';
+        }
+        t_file << '\n';
+    }
+
+    template <typename T>
+    void write(
         const std::vector<T> &t_vector,
         std::ostream& t_file = std::cout,
         std::string t_delimeter = " ")
@@ -58,6 +71,4 @@ namespace CSV
         }
         t_file << '\n';
     }
-
-
 }

@@ -1,36 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@WoojinHan24 
-imneme
-/
-pcg-cpp
-Public
-Fork your own copy of imneme/pcg-cpp
-Code
-Issues
-20
-Pull requests
-10
-Actions
-Projects
-Wiki
-Security
-Insights
-pcg-cpp/include/pcg_random.hpp
-@imneme
-imneme Update year.
-Latest commit 428802d on Apr 9, 2022
- History
- 10 contributors
-@imneme@crepererum@o11c@adam4130@zizau@tido64@felixonmars@ph4r05@bhickey@Neumann-A
-1951 lines (1643 sloc)  71.7 KB
-
 /*
  * PCG Random Number Generation for C++
  *
@@ -1982,18 +1949,3 @@ typedef pcg_engines::ext_oneseq_xsh_rs_64_32<14,32,true>    pcg32_k16384_fast;
 #endif
 
 #endif // PCG_RAND_HPP_INCLUDED
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-pcg-cpp/pcg_random.hpp at master · imneme/pcg-cpp
